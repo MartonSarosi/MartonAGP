@@ -18,4 +18,9 @@ public class InventoryUI : MonoBehaviour
     {
         shardText.text = "Ghost Shards: " + inventory.NumberOfShards.ToString();
     }
+
+    public void UpdateHealth(PlayerInventory inventory)
+    {
+        //update the healthbar in here
+    }
 }
